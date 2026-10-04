@@ -1,0 +1,5 @@
+﻿url,depth,status_code,title,description,language,h1,word_count,num_links,num_images,text_preview,fetched_at
+http://127.0.0.1:8765/,0,200,Home,Welcome page,en,Python Crawler Demo,16,5,1,Home Python Crawler Demo Learn web crawling with Python. About Blog Team Secret Broken PDF Ext,2026-10-04T12:14:17+00:00
+http://127.0.0.1:8765/about,1,200,About Us,,,About,10,2,0,About Us About We build crawlers in Python. Home P1,2026-10-04T12:14:17+00:00
+http://127.0.0.1:8765/blog/,1,200,Blog,,,,8,2,0,Blog Posts Async IO rocks. Post 1 Home,2026-10-04T12:14:18+00:00
+http://127.0.0.1:8765/blog/post1,2,200,Post One,,,Async crawling,10,0,0,Post One Async crawling asyncio makes crawling fast. Crawling crawling.,2026-10-04T12:14:18+00:00

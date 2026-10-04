@@ -1,0 +1,155 @@
+{
+  "stats": {
+    "pages_visited": 4,
+    "failures": 1,
+    "skipped_robots": 1,
+    "skipped_non_html": 0,
+    "duplicates_skipped": 3,
+    "urls_discovered": 5,
+    "bytes_downloaded": 882,
+    "duration_seconds": 0.4716818630000006
+  },
+  "failed": [
+    {
+      "url": "http://127.0.0.1:8765/broken",
+      "depth": 1,
+      "reason": "HTTP 404"
+    }
+  ],
+  "pages": [
+    {
+      "url": "http://127.0.0.1:8765/",
+      "depth": 0,
+      "status_code": 200,
+      "title": "Home",
+      "description": "Welcome page",
+      "language": "en",
+      "headings": {
+        "h1": [
+          "Python Crawler Demo"
+        ]
+      },
+      "paragraphs": [
+        "Learn web crawling with Python."
+      ],
+      "links": [
+        {
+          "url": "http://127.0.0.1:8765/about",
+          "text": "About"
+        },
+        {
+          "url": "http://127.0.0.1:8765/blog/",
+          "text": "Blog"
+        },
+        {
+          "url": "http://127.0.0.1:8765/private/secret",
+          "text": "Secret"
+        },
+        {
+          "url": "http://127.0.0.1:8765/broken",
+          "text": "Broken"
+        },
+        {
+          "url": "https://external.example.org/",
+          "text": "Ext"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8765/logo.png",
+          "alt": "Logo"
+        }
+      ],
+      "metadata": {
+        "description": "Welcome page"
+      },
+      "text": "Home Python Crawler Demo Learn web crawling with Python. About Blog Team Secret Broken PDF Ext",
+      "word_count": 16,
+      "fetched_at": "2026-10-04T12:14:17+00:00"
+    },
+    {
+      "url": "http://127.0.0.1:8765/about",
+      "depth": 1,
+      "status_code": 200,
+      "title": "About Us",
+      "description": "",
+      "language": "",
+      "headings": {
+        "h1": [
+          "About"
+        ]
+      },
+      "paragraphs": [
+        "We build crawlers in Python."
+      ],
+      "links": [
+        {
+          "url": "http://127.0.0.1:8765/",
+          "text": "Home"
+        },
+        {
+          "url": "http://127.0.0.1:8765/blog/post1",
+          "text": "P1"
+        }
+      ],
+      "images": [],
+      "metadata": {},
+      "text": "About Us About We build crawlers in Python. Home P1",
+      "word_count": 10,
+      "fetched_at": "2026-10-04T12:14:17+00:00"
+    },
+    {
+      "url": "http://127.0.0.1:8765/blog/",
+      "depth": 1,
+      "status_code": 200,
+      "title": "Blog",
+      "description": "",
+      "language": "",
+      "headings": {
+        "h2": [
+          "Posts"
+        ]
+      },
+      "paragraphs": [
+        "Async IO rocks."
+      ],
+      "links": [
+        {
+          "url": "http://127.0.0.1:8765/blog/post1",
+          "text": "Post 1"
+        },
+        {
+          "url": "http://127.0.0.1:8765/",
+          "text": "Home"
+        }
+      ],
+      "images": [],
+      "metadata": {},
+      "text": "Blog Posts Async IO rocks. Post 1 Home",
+      "word_count": 8,
+      "fetched_at": "2026-10-04T12:14:18+00:00"
+    },
+    {
+      "url": "http://127.0.0.1:8765/blog/post1",
+      "depth": 2,
+      "status_code": 200,
+      "title": "Post One",
+      "description": "",
+      "language": "",
+      "headings": {
+        "h1": [
+          "Async crawling"
+        ]
+      },
+      "paragraphs": [
+        "asyncio makes crawling fast. Crawling crawling."
+      ],
+      "links": [],
+      "images": [],
+      "metadata": {},
+      "text": "Post One Async crawling asyncio makes crawling fast. Crawling crawling.",
+      "word_count": 10,
+      "fetched_at": "2026-10-04T12:14:18+00:00"
+    }
+  ]
+}
